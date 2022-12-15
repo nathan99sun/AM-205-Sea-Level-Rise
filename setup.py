@@ -10,7 +10,7 @@ package_name = package_name.replace('/__init__.py', '')
 
 PACKAGE_NAME = package_name  # The name of the package
 VERSION = '0.0.1'
-PYTHON_VERSION = '~=3.6'  # Any python 3 version since python3.6
+PYTHON_VERSION = '~=3.9.15'  # Any python 3 version since python3.6
 SHORT_DESCRIPTION = ''
 DESCRIPTION = open('README.md').read()
 AUTHOR = ''
@@ -21,7 +21,7 @@ DEVELOPMENT_STATUS = 'Planning'
 ENVIRONMENT = []
 FRAMEWORK = []
 AUDIENCE = ['Developers']
-PROGRAMMING_LANGUAGE = ['Pythonv3.6', 'Pythonv3.7', 'Pythonv3.8']
+PROGRAMMING_LANGUAGE = ['Pythonv3.9']
 KEYWORDS = ['test', 'test2']
 
 # To add more classifier, like topic go on <https://pypi.org/pypi?action=list_classifiers>
